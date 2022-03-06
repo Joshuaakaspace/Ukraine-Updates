@@ -1,1 +1,1 @@
-web: python UkraineIOTE.py --port=$PORT
+web:python UkraineIOTE.py --port=$PORT
