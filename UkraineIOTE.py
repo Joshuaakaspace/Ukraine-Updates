@@ -1,10 +1,11 @@
-from dash import Dash, callback  
+#from dash import Dash, callback  
 import plotly.express as px
 import pandas as pd
 import dash_bootstrap_components as dbc 
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import dash
 
 
 dfc = pd.read_csv("Ukupdates.csv")
@@ -229,7 +230,7 @@ app.layout = dbc.Container(
 
 
 # top left bar graph 
-@callback(Output("bar-col", "children"), Input("bar-data", "value"))
+@app.callback(Output("bar-col", "children"), Input("bar-data", "value"))
 def create_bar_graph(data_column):
     bar_grpah = dcc.Graph(
         figure=px.bar(
@@ -240,7 +241,7 @@ def create_bar_graph(data_column):
 
 
 # top right map 
-@callback(Output("map-conslt-col", "children"), Input("map1-conslt-data", "value"))
+@app.callback(Output("map-conslt-col", "children"), Input("map1-conslt-data", "value"))
 def create_map(data_column):
     map1 = dcc.Graph(
         config={"displayModeBar": False},
