@@ -225,7 +225,7 @@ app.layout = dbc.Container(
 
 
 # top left bar graph 
-@callback(Output("bar-col", "children"), Input("bar-data", "value"))
+@app.callback(Output("bar-col", "children"), Input("bar-data", "value"))
 def create_bar_graph(data_column):
     bar_grpah = dcc.Graph(
         figure=px.bar(
@@ -236,7 +236,7 @@ def create_bar_graph(data_column):
 
 
 # top right map 
-@callback(Output("map-conslt-col", "children"), Input("map1-conslt-data", "value"))
+@app.callback(Output("map-conslt-col", "children"), Input("map1-conslt-data", "value"))
 def create_map(data_column):
     map1 = dcc.Graph(
         config={"displayModeBar": False},
