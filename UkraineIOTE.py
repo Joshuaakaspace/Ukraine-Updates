@@ -1,7 +1,11 @@
-from dash import Dash, dcc, Input, Output, callback  
+from dash import Dash, callback  
 import plotly.express as px
 import pandas as pd
-import dash_bootstrap_components as dbc  
+import dash_bootstrap_components as dbc 
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Input, Output
+
 
 dfc = pd.read_csv("Ukupdates.csv")
 # dfp = pd.read_csv("https://raw.githubusercontent.com/Coding-with-Adam/Dash-by-Plotly/master/Analytic_Web_Apps/VizForGood/Scatter_mapbox/Sunny%20Street%20-%20Patient%20data%203%20years.csv")
