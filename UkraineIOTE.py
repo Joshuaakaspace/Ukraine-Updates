@@ -56,6 +56,7 @@ dfc_gpd.reset_index(inplace=True)
 app = Dash(
     __name__, external_stylesheets=[dbc.themes.CYBORG], suppress_callback_exceptions=True
 )
+server = app.server
 
 # Layout building *********************************************************
 app.layout = dbc.Container(
@@ -257,4 +258,4 @@ def create_map(data_column):
     return map1
 
 if __name__ == "__main__":
-    app.run_server(debug=True, port=8001)
+    app.run_server(debug=True)
