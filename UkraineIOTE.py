@@ -54,7 +54,7 @@ dfc_gpd.reset_index(inplace=True)
 
 
 app = Dash(
-    __name__, external_stylesheets=[dbc.themes.CYBORG], suppress_callback_exceptions=True
+    __name__, external_stylesheets=[dbc.themes.CYBORG], suppress_callback_exceptions=True , title="IOTE - Ukraine Updates"
 )
 server = app.server
 
