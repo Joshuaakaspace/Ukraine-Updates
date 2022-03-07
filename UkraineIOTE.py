@@ -165,36 +165,46 @@ app.layout = dbc.Container(
                         dcc.Markdown('''
                                     ### Live News From Ukraine:
                                     Headlines and Description:
-                                    * Russia and Ukraine agree to temporary ceasefire to let civilians leave two Ukraine cities - CNBC
+                                    * The Russia-Ukraine War: Latest News and Live Updates - The Wall Street Journal
                                     * Description:
-                                    > A Ukrainian official tweeted that "humanitarian corridors" were being prepared in Mariupol and Volnovakha.
+                                    > Full coverage of Russia's invasion of Ukraine, from The Wall Street Journal
                                     > Read full article:
-                                    https://www.cnbc.com/2022/03/05/russian-state-media-claims-temporary-ceasefire-at-mariupol-volnovakha.html
-                                    * "Unless At Gunpoint": Elon Musk On Blocking Russian News On Starlink - NDTV
+                                    https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-07
+                                    * 'Top of the kill list': Rep. John Garamendi speaks with Ukraine President Volodymyr Zelenskyy - KCRA Sacramento
                                     * Description:
-                                    > SpaceX chief Elon Musk said on Saturday that its Starlink satellite broadband service has been told by some governments, not Ukraine, to block Russian news sources.
+                                    > Garamendi said Ukraine's President emphasized that Russian forces are moving away from targeting the Ukrainian military and are now attacking communities.
                                     > Read full article:
-                                    https://www.ndtv.com/world-news/elon-musks-says-spacexs-starlink-wont-block-russian-news-sources-unless-on-gunpoint-2804990
-                                    * Attack on Ukrainian nuclear plant triggers worldwide alarm - The Associated Press - en Español
+                                    https://www.kcra.com/article/rep-john-garamendi-speaks-ukraine-president-volodymyr-zelenskyy/39337159
+                                    * Ukraine Faces Fresh Wave of Attacks Focused on Population Centers - The Wall Street Journal
                                     * Description:
-                                    > KYIV, Ukraine (AP) — Russian troops Friday seized the biggest nuclear power plant in Europe after a middle-of-the-night attack that set it on fire and briefly raised worldwide fears of a catastrophe  in the most chilling turn yet in Moscow's invasion of Ukrai…
+                                    > Civilian casualties mount in Ukraine as Russian shelling, airstrikes intensify ahead of new talks
                                     > Read full article:
-                                    https://apnews.com/article/russia-ukraine-war-nuclear-plant-attack-33b6c1709dee937750f95c6786832840
-                                    * Mila Kunis, Ashton Kutcher GoFundMe Campaign To Help Ukraine’s Needy Approaches $10M Mark - Deadline
+                                    https://www.wsj.com/articles/ukraine-resumes-evacuation-attempts-as-russia-presses-offensive-11646564330
+                                    * Pope Francis: Ukraine humanitarian crisis 'growing dramatically' amid 'river of blood and tears' - Fox News
                                     * Description:
-                                    > Mila Kunis hasn’t forgotten where she came from. The actress and husband Ashton Kutcher have launched a fundraiser on the GoFundMe site to provide humanitarian aid to Ukraine. In just one day, the fundraiser has accumulated pledges of $9.3 million. Kutcher an…
+                                    > Pope Francis condemned the Russia-Ukraine conflict in his strongest language yet during his weekly address in St. Peter's Square at the Vatican on Sunday.
                                     > Read full article:
-                                    https://deadline.com/2022/03/mila-kunis-ashton-kutcher-gofundme-ukraine-campaign-1234971577/
-                                    * Zelensky slams NATO over refusing to implement no-fly zone over Ukraine - The Hill
+                                    https://www.foxnews.com/world/pope-francis-ukraine-humanitarian-crisis
+                                    * NATO nations have 'green light' to send jets to Ukraine; cease-fire in Mariupol collapses: Live updates - USA TODAY
                                     * Description:
-                                    > Ukrainian President Volodymyr Zelensky on Friday slammed NATO as being "weak" and "underconfident...
+                                    > NATO countries supporting Ukraine against the Russian invasion have a “green light” to send fighter jets as part of their military aid. Latest news.
                                     > Read full article:
-                                    https://thehill.com/policy/international/596972-zelensky-slams-nato-over-refusing-to-implement-no-fly-zone-over-ukraine
-                                    * Electronic Arts halts all sales in Russia and Belarus - PC Gamer
+                                    https://www.usatoday.com/story/news/politics/2022/03/06/russia-ukraine-invasion-updates/9401259002/
+                                    * U.S. gasoline prices soar to highest since 2008 on Russia conflict, AAA says - Reuters
                                     * Description:
-                                    > EA says it will not sell games through Origin, the EA app, or "platform partners" while Russia's invasion of Ukraine continues.
+                                    > U.S. gasoline prices jumped 11% over the past week to the highest since 2008 as global sanctions cripple Russia's ability to export crude oil after its invasion of Ukraine, automobile club AAA said on Sunday.
                                     > Read full article:
-                                    https://www.pcgamer.com/electronic-arts-halts-all-sales-in-russia-and-belarus/
+                                    https://www.reuters.com/business/energy/us-gasoline-prices-soar-highest-since-2008-russia-conflict-aaa-2022-03-06/
+                                    * ‘Grave concern’ as Ukraine Zaporizhzhia nuclear plant under Russian orders - The Guardian
+                                    * Description:
+                                    > International Atomic Energy Agency says Russian military orders of staff at nuclear plant violate international safety protocols
+                                    > Read full article:
+                                    https://amp.theguardian.com/world/2022/mar/06/ukraine-zaporizhzhia-nuclear-plant-staff-under-russian-orders
+                                    * For German Firms, Ties to Russia Are Personal, Not Just Financial - The New York Times
+                                    * Description:
+                                    > The economic fallout from Russia’s invasion of Ukraine is only part of the pain for German companies.
+                                    > Read full article:
+                                    https://www.nytimes.com/2022/03/06/business/germany-russia-companies.html
                                 ''')
                         ),
                     ],
