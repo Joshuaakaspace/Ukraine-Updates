@@ -1,1 +1,1 @@
-web: gunicorn UkraineIOTE:server
+web gunicorn UkraineIOTE:server
