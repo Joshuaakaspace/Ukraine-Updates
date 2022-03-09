@@ -85,7 +85,7 @@ app.layout = dbc.Container(
                             value="Activity",
                             options=[
                                 {"label": "Impacted Region", "value": "Activity"},
-                                {"label": "Region", "value": "Program"},
+                                {"label": "Region", "value": "Region"},
                             ],
                         ),
                     ],
@@ -165,46 +165,41 @@ app.layout = dbc.Container(
                         dcc.Markdown('''
                                     ### Live News From Ukraine:
                                     Headlines and Description:
-                                    * The Russia-Ukraine War: Latest News and Live Updates - The Wall Street Journal
+                                    * Russia invades Ukraine: Live updates - CNN
                                     * Description:
-                                    > Full coverage of Russia's invasion of Ukraine, from The Wall Street Journal
+                                    > US President Joe Biden announced a ban on Russian energy imports to the US as Ukraine's President urged the UK Parliament to strengthen sanctions against Moscow and vowed the country will "fight to the end." Follow here for live news. updates from on the grou…
                                     > Read full article:
-                                    https://www.wsj.com/livecoverage/russia-ukraine-latest-news-2022-03-07
-                                    * 'Top of the kill list': Rep. John Garamendi speaks with Ukraine President Volodymyr Zelenskyy - KCRA Sacramento
+                                    https://www.cnn.com/europe/live-news/ukraine-russia-putin-news-03-09-22/index.html
+                                    * Attacks hits Ukraine children's hospital, officials say - The Associated Press - en Español
                                     * Description:
-                                    > Garamendi said Ukraine's President emphasized that Russian forces are moving away from targeting the Ukrainian military and are now attacking communities.
+                                    > KYIV, Ukraine (AP) — A Russian attack severely damaged a maternity hospital in the besieged port city of Mariupol, Ukraine said Wednesday, and citizens trying to escape shelling on the outskirts of Kyiv streamed toward the capital amid warnings from the West …
                                     > Read full article:
-                                    https://www.kcra.com/article/rep-john-garamendi-speaks-ukraine-president-volodymyr-zelenskyy/39337159
-                                    * Ukraine Faces Fresh Wave of Attacks Focused on Population Centers - The Wall Street Journal
+                                    https://apnews.com/article/russia-ukraine-kyiv-europe-2bed71c00916d44ea951c5809b446db3
+                                    * Ukraine warns of risk of radiation leak at occupied Chernobyl nuclear plant - Reuters UK
                                     * Description:
-                                    > Civilian casualties mount in Ukraine as Russian shelling, airstrikes intensify ahead of new talks
+                                    > Ukraine appealed to Russia for a temporary ceasefire on Wednesday to allow repairs to be made to a power line to the Chernobyl nuclear power plant, warning that there could be a radiation leak if the electricity outage continued.
                                     > Read full article:
-                                    https://www.wsj.com/articles/ukraine-resumes-evacuation-attempts-as-russia-presses-offensive-11646564330
-                                    * Pope Francis: Ukraine humanitarian crisis 'growing dramatically' amid 'river of blood and tears' - Fox News
+                                    https://www.reuters.com/world/ukraine-nuclear-firm-warns-radiation-risk-after-power-cut-occupied-chernobyl-2022-03-09/
+                                    * War in Ukraine: McDonald’s, Coca-Cola and Starbucks halt Russian sales - BBC.com
                                     * Description:
-                                    > Pope Francis condemned the Russia-Ukraine conflict in his strongest language yet during his weekly address in St. Peter's Square at the Vatican on Sunday.
+                                    > Western companies are turning their backs on Russia amid sanctions and violence in Ukraine.
                                     > Read full article:
-                                    https://www.foxnews.com/world/pope-francis-ukraine-humanitarian-crisis
-                                    * NATO nations have 'green light' to send jets to Ukraine; cease-fire in Mariupol collapses: Live updates - USA TODAY
+                                    https://www.bbc.com/news/business-60665877
+                                    * MBS rejected Biden request to talk Russia, Ukraine oil crisis: WSJ - Business Insider
                                     * Description:
-                                    > NATO countries supporting Ukraine against the Russian invasion have a “green light” to send fighter jets as part of their military aid. Latest news.
+                                    > The US needs new suppliers after banning Russian energy imports. Mohammed bin Salman has spoken harshly about the US after Biden ostracized him.
                                     > Read full article:
-                                    https://www.usatoday.com/story/news/politics/2022/03/06/russia-ukraine-invasion-updates/9401259002/
-                                    * U.S. gasoline prices soar to highest since 2008 on Russia conflict, AAA says - Reuters
+                                    https://www.businessinsider.com/saudi-mbs-rejected-biden-request-discuss-russia-oil-crisis-wsj-2022-3
+                                    * Top lawmakers reach deal on Ukraine aid, $1.5T spending - The Associated Press - en Español
                                     * Description:
-                                    > U.S. gasoline prices jumped 11% over the past week to the highest since 2008 as global sanctions cripple Russia's ability to export crude oil after its invasion of Ukraine, automobile club AAA said on Sunday.
+                                    > WASHINGTON (AP) — Congressional leaders reached a bipartisan deal early Wednesday providing $13.6 billion to help Ukraine and European allies plus billions more to battle the pandemic as part of an overdue $1.5 trillion measure financing federal agencies for …
                                     > Read full article:
-                                    https://www.reuters.com/business/energy/us-gasoline-prices-soar-highest-since-2008-russia-conflict-aaa-2022-03-06/
-                                    * ‘Grave concern’ as Ukraine Zaporizhzhia nuclear plant under Russian orders - The Guardian
+                                    https://apnews.com/article/russia-ukraine-biden-covid-health-business-fa702b0f9efa4805b622739d302bc4cf
+                                    * Foreign volunteers get Ukrainian citizenship in fight against Russia, Ukraine says - Fox News
                                     * Description:
-                                    > International Atomic Energy Agency says Russian military orders of staff at nuclear plant violate international safety protocols
+                                    > Foreign volunteers who join Ukrainian forces in the fight against Russia will be granted citizenship by the Ukrainian government if they want, a Ukrainian government official said.
                                     > Read full article:
-                                    https://amp.theguardian.com/world/2022/mar/06/ukraine-zaporizhzhia-nuclear-plant-staff-under-russian-orders
-                                    * For German Firms, Ties to Russia Are Personal, Not Just Financial - The New York Times
-                                    * Description:
-                                    > The economic fallout from Russia’s invasion of Ukraine is only part of the pain for German companies.
-                                    > Read full article:
-                                    https://www.nytimes.com/2022/03/06/business/germany-russia-companies.html
+                                    https://www.foxnews.com/world/foreign-volunteers-ukrainian-citizenship-fight-russia-govt
                                 ''')
                         ),
                     ],
