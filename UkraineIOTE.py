@@ -123,8 +123,8 @@ app.layout = dbc.Container(
                                     "label": "Fleed the Country",
                                     "value": "Fleed",
                                 },
-                                {"label": "Loss of City", 
-                                "value": "Substance use"},
+                                #{"label": "Loss of City", 
+                                #"value": "Substance use"},
                             ],
                         ),
                     ],
@@ -165,41 +165,46 @@ app.layout = dbc.Container(
                         dcc.Markdown('''
                                     ### Live News From Ukraine:
                                     Headlines and Description:
-                                    * Russia invades Ukraine: Live updates - CNN
+                                    * Russia's bombing of maternity and children's hospital an 'atrocity,' Zelensky says - CNN
                                     * Description:
-                                    > US President Joe Biden announced a ban on Russian energy imports to the US as Ukraine's President urged the UK Parliament to strengthen sanctions against Moscow and vowed the country will "fight to the end." Follow here for live news. updates from on the grou…
+                                    > Russian forces bombed a maternity and children's hospital in southern Ukraine, authorities there said Wednesday, an attack described by the country's President Volodymyr Zelensky as an "atrocity."
                                     > Read full article:
-                                    https://www.cnn.com/europe/live-news/ukraine-russia-putin-news-03-09-22/index.html
-                                    * Attacks hits Ukraine children's hospital, officials say - The Associated Press - en Español
+                                    https://www.cnn.com/2022/03/09/europe/russia-invasion-ukraine-evacuations-03-09-intl/index.html
+                                    * U.S. House approves Ukraine aid, Russia oil ban, funds averting U.S. gov't shutdown - Reuters.com
                                     * Description:
-                                    > KYIV, Ukraine (AP) — A Russian attack severely damaged a maternity hospital in the besieged port city of Mariupol, Ukraine said Wednesday, and citizens trying to escape shelling on the outskirts of Kyiv streamed toward the capital amid warnings from the West …
+                                    > The U.S. House of Representatives on Wednesday voted to rush $13.6 billion in aid to Ukraine as it battles invading Russian forces, along with $1.5 trillion to keep U.S. government programs operating through Sept. 30 and avoid agency shutdowns this weekend.
                                     > Read full article:
-                                    https://apnews.com/article/russia-ukraine-kyiv-europe-2bed71c00916d44ea951c5809b446db3
-                                    * Ukraine warns of risk of radiation leak at occupied Chernobyl nuclear plant - Reuters UK
+                                    https://www.reuters.com/world/us/us-congress-reaches-govt-spending-deal-including-136-bln-ukraine-2022-03-09/
+                                    * 'Forgive me that I couldn’t defend you': Dad of slain Ukraine family learned of deaths on Twitter - New York Post 
                                     * Description:
-                                    > Ukraine appealed to Russia for a temporary ceasefire on Wednesday to allow repairs to be made to a power line to the Chernobyl nuclear power plant, warning that there could be a radiation leak if the electricity outage continued.
+                                    > Serhiy Perebyinis, 43, was in eastern Ukraine tending to his ailing mother when his family was killed. He broke down in tears talking about the senseless killings during an interview.
                                     > Read full article:
-                                    https://www.reuters.com/world/ukraine-nuclear-firm-warns-radiation-risk-after-power-cut-occupied-chernobyl-2022-03-09/
-                                    * War in Ukraine: McDonald’s, Coca-Cola and Starbucks halt Russian sales - BBC.com
+                                    https://nypost.com/2022/03/09/dad-of-slain-ukraine-family-learned-of-their-deaths-on-twitter/
+                                    * Why the US rejected Poland's plan to send fighter jets to Ukraine - CNN
                                     * Description:
-                                    > Western companies are turning their backs on Russia amid sanctions and violence in Ukraine.
+                                    > The Pentagon said Wednesday that it is bluntly opposed to a Polish plan to provide fighter jets to Ukraine.
                                     > Read full article:
-                                    https://www.bbc.com/news/business-60665877
-                                    * MBS rejected Biden request to talk Russia, Ukraine oil crisis: WSJ - Business Insider
+                                    https://www.cnn.com/2022/03/09/politics/ukraine-russia-poland-fighter-jets/index.html
+                                    * Russia, Belarus squarely in 'default territory' on billions in debt -World Bank - Reuters.com
                                     * Description:
-                                    > The US needs new suppliers after banning Russian energy imports. Mohammed bin Salman has spoken harshly about the US after Biden ostracized him.
+                                    > Russia and Belarus are edging close to default given the massive sanctions imposed against their economies by the United States and its allies over the war in Ukraine, the World Bank's chief economist, Carmen Reinhart, told Reuters.
                                     > Read full article:
-                                    https://www.businessinsider.com/saudi-mbs-rejected-biden-request-discuss-russia-oil-crisis-wsj-2022-3
-                                    * Top lawmakers reach deal on Ukraine aid, $1.5T spending - The Associated Press - en Español
+                                    https://www.reuters.com/markets/europe/russia-belarus-squarely-default-territory-billions-debt-world-bank-2022-03-09/
+                                    * U.S. dismisses Russian claims of biowarfare labs in Ukraine - Reuters
                                     * Description:
-                                    > WASHINGTON (AP) — Congressional leaders reached a bipartisan deal early Wednesday providing $13.6 billion to help Ukraine and European allies plus billions more to battle the pandemic as part of an overdue $1.5 trillion measure financing federal agencies for …
+                                    > The United States on Wednesday denied renewed Russian accusations that Washington was operating biowarfare labs in Ukraine, calling the claims "laughable" and suggesting Moscow may be laying the groundwork to use a chemical or biological weapon.
                                     > Read full article:
-                                    https://apnews.com/article/russia-ukraine-biden-covid-health-business-fa702b0f9efa4805b622739d302bc4cf
-                                    * Foreign volunteers get Ukrainian citizenship in fight against Russia, Ukraine says - Fox News
+                                    https://www.reuters.com/world/russia-demands-us-explain-biological-programme-ukraine-2022-03-09/
+                                    * Russia's Lavrov arrives in Turkey for talks with Ukraine counterpart - Reuters.com
                                     * Description:
-                                    > Foreign volunteers who join Ukrainian forces in the fight against Russia will be granted citizenship by the Ukrainian government if they want, a Ukrainian government official said.
+                                    > Russia's foreign minister Sergei Lavrov arrived after a flight to Turkey's southern city of Antalya on Wednesday, according to a Reuters witness, ahead of planned talks Thursday with his Ukrainian counterpart Dmytro Kuleba.
                                     > Read full article:
-                                    https://www.foxnews.com/world/foreign-volunteers-ukrainian-citizenship-fight-russia-govt
+                                    https://www.reuters.com/world/middle-east/russias-lavrov-arrives-turkey-talks-with-ukraine-counterpart-2022-03-09/
+                                    * Ukraine war: UK Home Office is in crisis mode over visas - BBC.com
+                                    * Description:
+                                    > The department is trying to convince an increasingly sceptical nation it has control of the situation.
+                                    > Read full article:
+                                    https://www.bbc.com/news/uk-60682454
                                 ''')
                         ),
                     ],
@@ -249,7 +254,7 @@ def create_map(data_column):
             dfc_gpd,
             lat="Latitude",
             lon="Longitude",
-            size="Length minutes",
+            size="area",
             hover_data={"Activity": True, "Longitude": False, "Latitude": False},
             size_max=40,
             color=data_column,
