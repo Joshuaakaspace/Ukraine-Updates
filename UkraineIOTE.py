@@ -217,7 +217,7 @@ app.layout = dbc.Container(
                         html.Br(),
                         html.P(
                             dcc.Markdown('''
-                             Live once a day updates with regards to Ukraine vs Russia, for more details contact [ioteverythin.com](https://www.ioteverythin.com/)
+                             Live once a day updates with regards to Ukraine vs Russia, for more details contact [ioteverythin.com](https://www.ioteverythin.com/), last updated at 08:00 GMT on 10-Mar-22
                             ''')
                         ),
                     ],
