@@ -30,7 +30,7 @@ dfc_shift.reset_index(inplace=True)
 # print(dfc_shift.head())
 
 # calculate average shift time for bottom histogram graph
-avg_shift_time = round(dfc["Length minutes"].mean())
+avg_shift_time = round(dfc["area"].mean())
 
 # re-organize dataframe for the top map
 dfc_gpd = dfc.groupby(["Latitude", "Longitude", "Activity"])[
