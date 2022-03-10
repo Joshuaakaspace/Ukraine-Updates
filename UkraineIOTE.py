@@ -40,7 +40,7 @@ dfc_gpd = dfc.groupby(["Latitude", "Longitude", "Activity"])[
        "Nursing/Paramedic Consults",
        "Conversations about health education",
         "Allied Health",
-       "Fleed",
+       "Providing Refugee",
        "Service provider conversations",
        "Mental health",
        "Suicide prevention/planning",
