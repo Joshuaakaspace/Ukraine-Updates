@@ -30,7 +30,7 @@ dfc_shift.reset_index(inplace=True)
 # print(dfc_shift.head())
 
 # calculate average shift time for bottom histogram graph
-avg_shift_time = round(dfc["area"].mean())
+avg_shift_time = round(dfc["Length minutes"].mean())
 
 # re-organize dataframe for the top map
 dfc_gpd = dfc.groupby(["Latitude", "Longitude", "Activity"])[
@@ -47,7 +47,7 @@ dfc_gpd = dfc.groupby(["Latitude", "Longitude", "Activity"])[
        "Substance use",
        "Medication education",
        "Impacted Region",
-       "area",
+       "Length minutes",
     ]
 ].sum()
 dfc_gpd.reset_index(inplace=True)
@@ -254,7 +254,7 @@ def create_map(data_column):
             dfc_gpd,
             lat="Latitude",
             lon="Longitude",
-            size="area",
+            size="Length minutes",
             hover_data={"Activity": True, "Longitude": False, "Latitude": False},
             size_max=40,
             color=data_column,
