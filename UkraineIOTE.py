@@ -47,7 +47,7 @@ dfc_gpd = dfc.groupby(["Latitude", "Longitude", "Activity"])[
        "Substance use",
        "Medication education",
        "Impacted Region",
-       "Length minutes",
+       "area",
     ]
 ].sum()
 dfc_gpd.reset_index(inplace=True)
