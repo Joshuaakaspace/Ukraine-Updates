@@ -120,8 +120,8 @@ app.layout = dbc.Container(
                                     #"value": "Deaths",
                                 #},
                                 {
-                                    "label": "Fleed the Country",
-                                    "value": "Fleed",
+                                    "label": "Countries Providing Refugee",
+                                    "value": "Providing Refugee",
                                 },
                                 {"label": "Loss of City", 
                                 "value": "Substance use"},
