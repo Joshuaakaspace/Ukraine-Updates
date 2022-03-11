@@ -165,46 +165,41 @@ app.layout = dbc.Container(
                         dcc.Markdown('''
                                     ### Live News From Ukraine:
                                     Headlines and Description:
-                                    * Russia's bombing of maternity and children's hospital an 'atrocity,' Zelensky says - CNN
+                                    * U.S., G7 allies may strip Russia of 'most favored nation' status - Reuters.com
                                     * Description:
-                                    > Russian forces bombed a maternity and children's hospital in southern Ukraine, authorities there said Wednesday, an attack described by the country's President Volodymyr Zelensky as an "atrocity."
+                                    > The United States, together with the Group of Seven nations and the European Union, will move on Friday to revoke Russia's "most favored nation" status over its invasion of Ukraine, multiple people familiar with the situation told Reuters.
                                     > Read full article:
-                                    https://www.cnn.com/2022/03/09/europe/russia-invasion-ukraine-evacuations-03-09-intl/index.html
-                                    * U.S. House approves Ukraine aid, Russia oil ban, funds averting U.S. gov't shutdown - Reuters.com
+                                    https://www.reuters.com/business/biden-call-an-end-normal-trade-relations-with-russia-increased-tariffs-russian-2022-03-11/
+                                    * Inside the quiet US diplomacy to ramp down tensions with Saudis, UAE -- and ramp up oil production - CNN
                                     * Description:
-                                    > The U.S. House of Representatives on Wednesday voted to rush $13.6 billion in aid to Ukraine as it battles invading Russian forces, along with $1.5 trillion to keep U.S. government programs operating through Sept. 30 and avoid agency shutdowns this weekend.
+                                    > An intense, closely guarded diplomatic effort by a core team of Biden energy and national security officials to raise global oil production amid surging prices from Russia's war in Ukraine has fostered a cautious sense of optimism inside the White House.
                                     > Read full article:
-                                    https://www.reuters.com/world/us/us-congress-reaches-govt-spending-deal-including-136-bln-ukraine-2022-03-09/
-                                    * 'Forgive me that I couldn’t defend you': Dad of slain Ukraine family learned of deaths on Twitter - New York Post 
+                                    https://www.cnn.com/2022/03/11/politics/oil-diplomacy-saudi-uae-tensions-russia-ukraine/index.html
+                                    * Russia owes Western banks $120 billion. They won't get it back - CNN
                                     * Description:
-                                    > Serhiy Perebyinis, 43, was in eastern Ukraine tending to his ailing mother when his family was killed. He broke down in tears talking about the senseless killings during an interview.
+                                    > Goldman Sachs and JPMorgan Chase are the first major Western banks to get out of Russia following the invasion of Ukraine. More are likely to follow at a cost of tens of billions of dollars.
                                     > Read full article:
-                                    https://nypost.com/2022/03/09/dad-of-slain-ukraine-family-learned-of-their-deaths-on-twitter/
-                                    * Why the US rejected Poland's plan to send fighter jets to Ukraine - CNN
+                                    https://www.cnn.com/2022/03/10/investing/banks-russia-exposure/index.html
+                                    * Russian strikes hit western Ukraine as offensive widens - The Associated Press - en Español
                                     * Description:
-                                    > The Pentagon said Wednesday that it is bluntly opposed to a Polish plan to provide fighter jets to Ukraine.
+                                    > LVIV, Ukraine (AP) — Russia widened its military offensive in Ukraine on Friday, striking near airports in the west of the country for the first time, as observers and satellite photos indicated that its troops, long stalled in a convoy outside the capital Ky…
                                     > Read full article:
-                                    https://www.cnn.com/2022/03/09/politics/ukraine-russia-poland-fighter-jets/index.html
-                                    * Russia, Belarus squarely in 'default territory' on billions in debt -World Bank - Reuters.com
+                                    https://apnews.com/be25927bc5eef0f90cf466a86fcc6e3f
+                                    * Households squeezed as U.S. consumer prices accelerate; more pain coming - Reuters
                                     * Description:
-                                    > Russia and Belarus are edging close to default given the massive sanctions imposed against their economies by the United States and its allies over the war in Ukraine, the World Bank's chief economist, Carmen Reinhart, told Reuters.
+                                    > U.S. consumer prices surged in February, forcing Americans to dig deeper to pay for rent, food and gasoline, and inflation is poised to accelerate even further as Russia's war against Ukraine drives up the costs of crude oil and other commodities.
                                     > Read full article:
-                                    https://www.reuters.com/markets/europe/russia-belarus-squarely-default-territory-billions-debt-world-bank-2022-03-09/
-                                    * U.S. dismisses Russian claims of biowarfare labs in Ukraine - Reuters
+                                    https://www.reuters.com/business/us-consumer-prices-accelerate-february-weekly-jobless-claims-rise-2022-03-10/
+                                    * Global food shortage and higher prices may result from war in Ukraine - CNN
                                     * Description:
-                                    > The United States on Wednesday denied renewed Russian accusations that Washington was operating biowarfare labs in Ukraine, calling the claims "laughable" and suggesting Moscow may be laying the groundwork to use a chemical or biological weapon.
+                                    > Global food challenges could worsen as a result of the Russian invasion of Ukraine, leading to shortages and higher food prices. The World Food Programme has lost access to a key source of grain from Ukraine, a major food exporter known as the "bread basket o…
                                     > Read full article:
-                                    https://www.reuters.com/world/russia-demands-us-explain-biological-programme-ukraine-2022-03-09/
-                                    * Russia's Lavrov arrives in Turkey for talks with Ukraine counterpart - Reuters.com
+                                    https://www.cnn.com/videos/business/2022/03/10/food-prices-crisis-russia-ukraine-invasion-qmb-vpx.cnnbusiness
+                                    * War in Ukraine: Is the party over for Chelsea? - Sky News
                                     * Description:
-                                    > Russia's foreign minister Sergei Lavrov arrived after a flight to Turkey's southern city of Antalya on Wednesday, according to a Reuters witness, ahead of planned talks Thursday with his Ukrainian counterpart Dmytro Kuleba.
+                                    > The future of Chelsea is uncertain after the government froze the assets of the Russian oligarch Roman Abramovich.Culture Secretary Nadine Dorries said Abram...
                                     > Read full article:
-                                    https://www.reuters.com/world/middle-east/russias-lavrov-arrives-turkey-talks-with-ukraine-counterpart-2022-03-09/
-                                    * Ukraine war: UK Home Office is in crisis mode over visas - BBC.com
-                                    * Description:
-                                    > The department is trying to convince an increasingly sceptical nation it has control of the situation.
-                                    > Read full article:
-                                    https://www.bbc.com/news/uk-60682454
+                                    https://www.youtube.com/watch?v=Uqi60RXj3DQ
                                 ''')
                         ),
                     ],
@@ -217,7 +212,7 @@ app.layout = dbc.Container(
                         html.Br(),
                         html.P(
                             dcc.Markdown('''
-                             Live once a day updates with regards to Ukraine vs Russia, for more details contact [ioteverythin.com](https://www.ioteverythin.com/), last updated at 08:00 GMT on 10-Mar-22
+                             Live once a day updates with regards to Ukraine vs Russia, for more details contact [ioteverythin.com](https://www.ioteverythin.com/), last updated at 14:00 GMT on 11-Mar-22
                             ''')
                         ),
                     ],
